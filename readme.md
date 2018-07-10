@@ -7,10 +7,11 @@
 - proposal.pdf：开题报告pdf格式
 - report.md:最终报告md格式
 - report.pdf:最终报告pdf格式
-- submit-29.csv：最终模型测试集输出结果
-- process-1.ipynb：最终模型的训练文件
+- submit-final.csv：最终模型测试集输出结果
+- process-1.ipynb：评审前最终模型的训练文件
+- process-6.ipynb：根据评审反馈意见重新调整的代码
 - Visual.ipynb：可视化的文件
-- robust.ipynb：验证健壮性的文件
+- robust-1.ipynb：验证健壮性的文件
 
 ## 比较重要但因为比较大无法上传的文件有：
 
@@ -19,7 +20,7 @@
 - dtrain.buffer：存储训练集的DMatrix
 - dval.buffer：存储验证集的DMatrix
 
-这些文件放在了百度网盘中：https://pan.baidu.com/s/1Y9-Ye4UBy2_IOCMmKJb55Q
+这些文件放在了百度网盘中：https://pan.baidu.com/s/10_1CR9VEfuk-YXudnp_1aw
 
 ## 使用的库
 - numpy
@@ -48,8 +49,5 @@ MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)
 
 ## 训练时间
 
-- 22867s
-- 6.35h
-
-The training time of the model is: 22867s
-The rmspe of the model on validation data set is 0.106634
+- 5928s
+- 1.65h
